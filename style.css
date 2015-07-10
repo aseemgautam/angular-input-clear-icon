@@ -1,0 +1,7 @@
+.clearable.x {
+     background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA/klEQVRIS+1UwQ2DMAy0RQboJmWDphL8203aSdpN2j9ITTegm3QAo6AgkKIo2ObBD57BvrMvl0PY+MON8WEnEBXOSlTXdem9fxDR1Tn351CstQdjzAsR703TdGltlqCqKgcAJwDoiOi8RDKBfwCgBIBv27ZWRRAai6JwiHhcIonBvfe/vu9tbpBFF3EkWvCwDWvTHEloMsaMsnCTz1KJ7yAlmRpV4OIG8xQJCWgmV28QChO3hCPWXbGTVBLFmo9rM+5S2TSWJr3Q8E+ysGoDzoqad8LegcbnWhI2KiS3JCT6qJjC7klEF2XYvRHxpg47MYNXFIg2XYGVLd0JRAUHPcjkGaE71EgAAAAASUVORK5CYII=) no-repeat right -10px center;
+     background-size: 16px 16px;
+     background-position: right 5px center;     
+}
+.clearable.onX{ cursor: pointer; }
+    

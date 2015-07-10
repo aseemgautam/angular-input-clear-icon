@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.js"></script> 
+        <script src="angular-input-clear-icon.js"></script>   
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+        <title>Demo - Angular JS textbox clear icon</title>    
+        <script>
+            var app = angular.module('clearTextApp', ['controller', 'controls']);
+
+            angular.module('controller', []).controller('clearTextAppCtrl', ['$scope', function ($scope) {
+                $scope.searchString = ''; //ng-model
+            }]);
+        </script>
+    </head>
+<body ng-app='clearTextApp' ng-controller='clearTextAppCtrl'>
+    <input clear-text id="search-box" ng-model="searchString" placeholder="text search" class="clearable" type="text" />
+    <p>{{searchString}}</p>
+    <div></div>
+</body>
+</html>
