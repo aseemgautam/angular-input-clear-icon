@@ -16,4 +16,4 @@
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
 
-demo.html jquery.js linguist-vendored
+demo.html linguist-vendored
